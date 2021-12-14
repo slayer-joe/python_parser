@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup as bs
 import requests
-from modules.Iterator import Iterator
+from modules.BaseParser import BaseParser
 
-class IVI(Iterator):
+class IVI(BaseParser):
     def __init__(self, url):
         self.url = url
         self.items_list = []

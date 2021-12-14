@@ -1,4 +1,4 @@
-class Iterator:
+class BaseParser:
     items_list = []
 
     def __enter__(self):
